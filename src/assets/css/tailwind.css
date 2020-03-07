@@ -1,0 +1,257 @@
+/* @screen xs{}
+
+@screen sm{}
+
+@screen md{}
+
+@screen lg{}
+
+@screen xl{} */
+
+@tailwind base;
+@import "./suisse.css";
+
+html {
+    @apply font-body
+  }
+
+h1 {
+    @apply text-5xl font-bold
+}  
+@screen lg {
+    h1 {
+        @apply text-4xl 
+    }
+}
+@screen only-xs {
+    h1 {
+        @apply text-3xl 
+    }
+}
+
+
+  
+@tailwind components;
+
+/* Footer */
+
+.icons{
+    @apply rounded-full p-4 my-3  mx-2 bg-paris_daisy
+}
+@screen lg {
+    .icons{
+        @apply p-3
+    }
+} 
+
+.icons:hover{
+    @apply bg-white
+}
+.footer-link{
+    @apply  px-2 py-4 text-white
+}
+
+@screen xs {
+    .footer-link{
+        @apply text-lg px-2 
+    }
+}
+
+.input{
+    @apply appearance-none block w-full  text-gray-700 border 
+    rounded py-3 px-4 leading-tight 
+}
+.input:focus{
+    @apply outline-none bg-white border-paris_daisy overflow-hidden
+
+}
+.input:hover{
+    @apply border-paris_daisy overflow-hidden
+}
+
+.header-li{
+    @apply w-1/2 leading-normal text-white font-bold
+}
+/* 
+*/
+/* Projects */
+/* 
+*/
+.project-section{
+   @apply w-full py-24 px-16 
+}
+.project-p{
+    @apply   leading-loose 
+}
+
+
+@screen xs{
+    .project-section{
+        @apply w-full py-10 px-8 
+     }
+     .project-p{
+        @apply text-xl 
+    }
+ }
+@screen sm{
+    .project-p{
+        @apply text-xl w-5/6  
+    }
+    .project-section{
+        @apply py-12 px-16 
+     }
+}
+@screen md{
+    .project-p{
+        @apply text-2xl  
+    }
+    .text-header{
+        font-size: 4rem;
+    }
+}
+@screen lg{
+    .project-p{
+        @apply  text-3xl 
+    }
+    .text-header{
+        font-size: 6rem;
+    }
+}
+@screen xl{
+    .project-p{
+        @apply w-4/6
+    }
+    
+} 
+
+
+
+
+@tailwind utilities;
+
+
+
+.header-video{
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.header-opacity{
+    background: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 100%;
+}
+
+.px-8p{
+    padding-left: initial;
+    padding-right: initial;
+}
+@screen lg {
+    .px-8p{
+        padding-left: 8.3333%;
+        padding-right: 8.3333%;
+    }
+}
+
+@screen lg {
+    .dia-header{
+        height: 75vh;
+    }
+}
+
+
+.max-w-1440{
+    max-width: 1440px;
+}
+
+.text-2-5-xl{
+    font-size: 1.75rem;
+}
+
+.max-h-28{
+    max-height: 7rem;
+}
+
+.grayscale{
+    /* filter: grayscale(1); */
+    background-color: white;
+    background-blend-mode: multiply;
+}
+.grayscale:hover{
+    filter: grayscale(0);
+}
+
+.text-radical_red{
+    color: #FC4C5D;
+}
+.h-80vh{
+    height: 80vh;
+}
+.h-75vh{
+    height: 75vh;
+}
+.h-60vh{
+    height: 60vh;
+}
+.h-50vw{
+    height: 50vw;
+}
+.min-h-720px{
+    min-height: 720px;
+    min-height: 45rem;
+}
+.window{
+    
+}
+
+.text-paris_daisy{
+    color: #ffff3c;
+}
+.hover-daisy:hover{
+    color: #ffff3c;
+}
+.submit-btn{
+    background-color: #ffff3c;
+}
+.submit-btn:hover{
+    background-color: #ccb821;
+}
+.hover-daisy-dark:hover{
+    background-color: #e4cf23;
+}
+.border-paris_daisy{
+    border-image: linear-gradient(90deg, rgba(251,235,80,1) 0%, rgba(228,207,35,1) 100%) 1;
+    border-style: solid;
+    
+}
+.border-contact{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 25px 0px;
+
+}
+.border-contact::before{
+    content: "•••";
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 0;
+    letter-spacing: 8px;
+    
+    padding-left: 10px;
+    padding-top: 14px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(-225deg, rgba(251,235,80,1) 0%, rgba(228,207,35,1) 100%);
+    border-radius: 8px 8px 0px 0px;
+    
+}
+.border-footer{
+    border-top-width: 8px;
+}
+.customBg{
+    background: #f4f4f4;
+}
+

@@ -1,0 +1,116 @@
+﻿{
+  "links": {
+    "linkPortfolio": "Portfolio",
+    "linkServices": "Services",
+    "linkContacts": "Contacts"
+  },
+  "home": {
+    "header": "Branding and digital marketing agency: today's change is tomorrow's progress ",
+    "learn_more": "Learn more",
+    "services": {
+      "title": "Services ",
+      "lists": [
+        {
+          "title": "SMM",
+          "lis": [
+            "Content marketing",
+            "Community management",
+            "Targeted advertising"
+          ]
+        },
+        {
+          "title": "Digital & Web",
+          "lis": [
+            "Content marketing",
+            "Email marketing",
+            "Front-end & back-end developement"
+          ]
+        },
+        {
+          "title": "Mobile",
+          "lis": [
+            "Concept of the product",
+            "Interface design",
+            "Data analysis"
+          ]
+        },
+        {
+          "title": "Design",
+          "lis": [
+            "Branding",
+            "Graphic design",
+            "Motion graphic design"
+          ]
+        },
+        {
+          "title": "Production",
+          "lis": [
+            "Photo production",
+            "Video production"
+          ]
+        },
+        {
+          "title": "Strategy",
+          "lis": [
+            "Social media presence strategy",
+            "Product strategy",
+            "Creative strategy"
+          ]
+        }
+      ]
+    },
+    "clients": {
+      "1": "Clients.",
+      "2": "We use the most progressive opportunities for managing business accounts on social media, developing websites, launching efficient advertising campaigns and large-scale projects with opinion leaders to insure brand presence in the informational space."
+    },
+    "contact": {
+      "title": "Contact us",
+      "addressName": "Address",
+      "address": "Bishkek, Kyrgyzstan",
+      "contacts": {
+        "title": "Contacts",
+        "phone1": "+996 708 033 501",
+        "phone2": "+7 701 887 7545"
+      },
+      "form": {
+        "fullname": "Full name",
+        "email": "E-mail",
+        "textarea": "Notes",
+        "agreement": "By pressing «Send», I confirm that I have read the Privacy Policy of Andromedia SMM agency.",
+        "button": "Send"
+      }
+    }
+  },
+  "projects": {
+    "tijo": {
+      "desc": "Branding",
+      "p1": "Tijo is an online jewellery designer brand based in Hong Kong. \n Tijo wants to make their customers to share positive vibes and be more mindful while being chic by wearing their jewellery. A classic yet sophisticated feel.",
+      "p2": "The logotype that was developed describes few things while bringing all of those qualities into one focus. Modern, yet classic, positive, but elegant. Four letters divided into two columns and creating that balance together. It had to to be a Serif typeface to empasize all the qualities Tijo wanted in their logo. By removing the dot of “j” letter, logotype looks unique and different. Plus it fills the space of the shape.",
+      "p3": "The examples above demonstrate how the color-variations of the logo should be used. The logo should always appear on a solid background and not on top of a pattern.",
+      "p4": "Your secondary font which is used to describe your brand is “Cocogoose Ultra Light”. Please note that it should be used with 320 letter tracking.",
+      "p5": "At some point you might want to use gradient for promotion, or just making a difference on packaging your products. This gradient was developed specifically for Tijo Jewellery. Since there are rose quartz and amethyst in Tijo’s products, the mix of this two palettes was created. It is called “Crystal Mix” which contains of two colors. Everything on top of this gradient should be a white colored object, text.",
+      "p6": "Few things to remember when making posters, banners, business cards, whether it is a printing or web element is to give that feel that you always wanted to reach. Give your design a lot of space. Use lines to emphasize your qualities. Experiment, and maybe use some texts as capsize, but check legibility as well. On these examples you will find some ideas about how it can be designed."
+    },
+    "dialecticon": {
+      "desc": "Identity",
+      "p1": "Dialecticon is a consulting company aimed to help popular brands pursue a policy of green economy.",
+      "p2": "We had to develop a unique design and corporate identity for the company. Emphasis should have been put on the fact that the consulting company Dialecticon implies a personal approach to each customer.",
+      "p3": "As customer confidence is the foundation of the company and each customer of the company Dialecticon is unique, we had to design the logo on the basis of a fingerprint. It is known that there are no two same fingerprints in the world – that is how we emphasize our uniqueness and the uniqueness of our clients.",
+      "p4": "We used the first letter of the name of the company – D – and a picture of a fingerprint as a base of the logotype of Dialecticon. It took us much time to develop the logo because a picture of a fingerprint consists of numerous lines while the logo had to be simple to perceive. To highlight “green” approaches to the matters Dialecticon deals with we used green as a major color. The final logo became a part of the corporate identity of the company."
+    },
+    "soros": {
+      "desc": "Infographic",
+      "p1": " Фондом Сороса было проведено исследование на тему «Насколько эффективна политика государства по содержанию наркопотребителей в местах лишения свободы?».Перед нами была поставлена задача визуализировать данное исследование, тем самым донести до населения вопрос об эффективности содержания наркопотребителей.",
+      "p2": "Нашей команде удалось вместить все исследование в минутное видео, не упустив главной идеи, а также правильно визуализировать и наглядно показать саму проблему.",
+      "p3": "Исследование и статья были довольно объемными, так что сжать всю информацию в 1 минуту было основным камнем преткновения. Мы мыслили критически и решили эту проблему нестандартно, использовав инструмент, способный донести максимум информации своей целевой аудитории за короткий промежуток времени – видео-инфографику.",
+      "p4": "При разработке проекта нашей командой был создан не только сценарий и видео, но также произведена озвучка видео ролика. После просмотра видео-инфографики, у людей возникали эмоции и осознание всей проблемы наркомании в Кыргызстане. Ролик полностью доносил мысль фонда Сорос и помог им достичь свою цель."
+    },
+    "raincatcher": {
+      "desc": "Animation & Illustration & Packaging",
+      "p1": "Raincatcher is a hydrogel used to improve yields based on French technology. Nowadays this company’s product is at the international level due to its ability to save fertilizers and irrigation water.",
+      "p2": "We had to design the packaging for the product as well as special icons, logo animation, and animated video about the working principles of the product to increase the efficiency of the website of the company Raincatcher.",
+      "p3": "To make working principles of Raincatcher hydrogel intuitive we worked out an animated video on the basis of its logo. The video about the growth of the symbol of the company – a tomato tree – demonstrates the hydrogel’s long-term commitment to land productivity. The animated growth cycle of the tree was expected to emphasize the uniqueness of the product and its competitiveness in the international market.",
+      "p4": "To engage more consumers with buying hydrogel Raincatcher we created animations based on the following experimental result: hydrogel Raincatcher facilitates the growth of plants. We divided the logo into two parts – a fruitful tomato tree after applying our gel from the left and the same tree with a poorer harvest form the right. That is how we managed to make the product more presentable and attractive to new buyers."
+    }
+  }
+}
